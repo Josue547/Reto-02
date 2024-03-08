@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+
+body {
+    background: #f5d04e;
+}
+
+div.principal {
+    width: 320px;
+    background: white;
+    height: 400px auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 13px 13px 0px #000;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: black;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+span {
+    background: #f3d04c;
+    padding: 4px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.texto {
+    margin-top: 15px;
+    font-family: "Figtree", sans-serif;
+}
+
+h2 {
+     margin-top: 15px;
+     font-weight: 900;
+     font-family: "Figtree", sans-serif;
+     font-size: 16px;
+}
+
+.parrafo {
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.autor {
+   display: flex;
+    align-items: center;
+    float: left;
+}
+
+
+.imagen {
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.parrafo2 {
+    top: -10px;
+    position: relative;
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
